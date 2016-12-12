@@ -1,0 +1,26 @@
+{% extends 'vs/base.html' %}
+
+{% load static %}  <!-- informs django's template system we will be using static media -->
+
+{% block title %}{{ "Bienvenido a VS" }}{% endblock %}
+
+{% block body_block %}
+
+<div class="hero-unit">
+    {% if user.is_authenticated %}
+        <h2>Hola {{user.username}} </h2>
+        
+    {% else %}
+        <h2>Bienvenido</h2>
+    {% endif %}
+    <br>
+    {% if user.is_authenticated %}
+        {% include "vs/estado.html" %}
+    {% endif %}
+    <br>
+    <img src="{% static 'vs.jpg' %}" alt = "Picture of Rango" style="width:604px;height:328px;" />
+    <br>
+    <br>
+
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'vs/base.html' %}
+
+{% load static %}  <!-- informs django's template system we will be using static media -->
+
+{% block title %}{{ "Directorios" }}{% endblock %}
+
+{% block body_block %}
+
+<h1>{{ directory_name }}</h1>
+<ul>
+
+{% for dir in directory_dirs %}
+    <li><a href="{% url 'directories_list' dire dir %}">{{ dir }}</a></li>
+{% endfor %}
+
+{% for file in directory_files %}
+
+        <li><a href="{% url 'directory_download_file' dire file %}">{{ file }}</a></li>
+
+{% endfor %}
+</ul>
+
+{% endblock %}

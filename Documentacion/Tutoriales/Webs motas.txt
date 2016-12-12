@@ -1,0 +1,37 @@
+http://www.libelium.com/products/waspmote/
+
+https://www.cooking-hacks.com/documentation/tutorials/geolocation-tracker-gprs-gps-geoposition-sim908-arduino-raspberry-pi/#gps
+
+https://www.element14.com/community/thread/26767/l/psoc-4-pioneer-kit-community-project089-gps-example?displayFullThread=true
+
+https://store.digilentinc.com/pmodgps-gps-receiver/
+
+https://www.tindie.com/products/ozzmaker/berryimu-accelerometer-gyroscope-magnetometer/
+
+https://www.cooking-hacks.com/documentation/tutorials/raspberry-pi-to-arduino-shields-connection-bridge#step4
+
+https://www.cooking-hacks.com/documentation/tutorials/3g-gps-shield-arduino-raspberry-pi-tutorial/ (No es la misma pero pa guiarse con los comandos)
+
+http://www.prometec.net/arduino-wifi/ (modulo wifi - http://es.aliexpress.com/store/product/New-Wireless-module-CH340-NodeMcu-V3-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266-We/343255_32565317233.html?storeId=343255&spm=2114.12010408.1000013.3.xXLFMv)
+
+
+------------------------------------------------------------------------
+
+SIM808
+
+P.S.
+The link to download the instructions
+- https://www.dropbox.com/s/ocigkcxi5hkzgv2/Breakout%20SIM808%20Board-EN%20V2.1.rar?dl=0
+
+Other helpful links:
+1. SIM808 with Arduino:
+http://www.dfrobot.com/wiki/index.php?title=SIM808_with_Leonardo_mainboard_SKU:DFR0355
+http://www.elecrow.com/wiki/index.php?title=Elecrow_SIMduino_UNO%2BSIM808_GPRS/GSM_Board
+2. SIM808 Arduino Library: https://github.com/leffhub/DFRobotSIM808_Leonardo_mainboard/raw/master/Library/SIM808.zip
+3. similar SIM808 Board: http://www.seeedstudio.com/wiki/Mini_GSM/GPRS_%2B_GPS_Breakout_-_SIM808
+
+------------------------------------------------------------------------
+
+https://forum.arduino.cc/index.php?topic=344673.0 (Codigo de ejemplo arduino sim808)
+
+

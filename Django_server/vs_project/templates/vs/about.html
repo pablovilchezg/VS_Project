@@ -1,0 +1,13 @@
+{% extends 'vs/base.html' %}
+
+{% load static %}  <!-- informs django's template system we will be using static media -->
+
+{% block title %}{{ "About" }}{% endblock %}
+
+{% block body_block %}
+<div class="hero-unit">
+    <h1>Sobre VS</h1><br />
+    Monitoriza y localiza tu vehículo al instante.<br />
+    <img src="{% static 'vs.jpg' %}" alt="Picture of Rango" />
+</div>
+{% endblock %}

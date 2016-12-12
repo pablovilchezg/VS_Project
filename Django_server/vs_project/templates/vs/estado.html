@@ -1,0 +1,32 @@
+{% load static %}
+
+<div class="well sidebar-nav">
+
+	{% if cam = "1" %}
+	    <font color="green">Camara activada</font>
+
+	{% else %}
+	    <font color="red">Camara desactivada</font>
+	{% endif %}
+	--
+	{% if gps = "1" %}
+	    <font color="green">GPS activado</font>
+
+	{% else %}
+	    <font color="red">GPS desactivado</font>
+	{% endif %}
+	--
+	{% if gpsloc = "1" %}
+	    <font color="green">Dispositivo localizado</font>
+
+	{% else %}
+	    <font color="red">Dispositivo no ubicado</font>
+	{% endif %}
+	--
+	{% if ap = "1" %}
+	    <font color="green">Punto de acceso activado</font>
+
+	{% else %}
+	    <font color="red">Punto de acceso desactivado</font>
+	{% endif %}
+</div>

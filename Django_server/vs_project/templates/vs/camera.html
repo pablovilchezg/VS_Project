@@ -1,0 +1,20 @@
+{% extends 'vs/base.html' %}
+
+{% load static %}  <!-- informs django's template system we will be using static media -->
+
+{% block title %}{{ "Camara" }}{% endblock %}
+
+{% block body_block %}
+	    <head>
+		<meta charset="utf-8">
+		<title>Camera</title>
+	    </head>
+	    <body>
+		<h1>Camara</h1>
+
+		<div> 
+		    <object type="text/html" data="http://localhost:8080/?action=stream/" width="680px" height="520px" style="overflow:auto;">
+		    </object>
+		</div>
+	    </body>
+{% endblock %}

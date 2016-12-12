@@ -1,0 +1,10 @@
+Comandos:
+
+- actnot
+- desactnot
+- ping
+- foto
+- video
+- temperatura
+- help
+
