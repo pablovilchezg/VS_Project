@@ -5,7 +5,7 @@
 Para la utilización del sensor, identificamos las patillas de alimentación
 del sensor y la patilla que cambiará de estado cuando detecte movimiento.
 
-![pinoutpir](./Imagenes/PIRsensor.png "Pines del sensor")
+![pinoutpir](../Imagenes/PIRsensor.png "Pines del sensor")
 
 La salida nos dara un pulso alto (3V) cuando se detecte una presencia, y estará en nivel bajo mientras no se detecte nada
 Es capaz de detectar a 6 metro con un rango de 110 x 70 grados
@@ -17,7 +17,7 @@ Con los tornillos de ajuste podemos ajustar dos parámetros:
 
 También tenemos un jumper, con el que seleccionamos o la opción H o la opción L. Con la H la salida estará en alta mientras esté detectando, y con L mientras detecte estará cambiando de baja a alta.
 
-![pirtornillosajuste](./Imagenes/pirtornillosajuste.jpg "Funciones sensor PIR")
+![pirtornillosajuste](../Imagenes/pirtornillosajuste.jpg "Funciones sensor PIR")
 
 
 ##Codigo para usarlo
@@ -26,7 +26,7 @@ Generamos un codigo para usar el sensor, con un led que nos avisa cuando cambia 
 
 Implementaremos el hardware de la siguiente forma:
 
-![pirconexiones](./Imagenes/pircon.jpg "Conexión del PIR para probarlo")
+![pirconexiones](../Imagenes/pircon.jpg "Conexión del PIR para probarlo")
 
 Podemos utilizar el siguiente código para probar el funcionamiento
 
